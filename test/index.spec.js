@@ -14,8 +14,9 @@ describe('index', () =>{
     context('When the number is a string', () =>{
       it('should return error', () =>{
         expect(() =>{
-          index.getLinksFromMd().typeof('string');
-        }).to.throw(Error);
+          var badFn = function () {index.getLinksFromMd().typeof('number')};
+          expect(badFn).to.throw('Enter text.');
+        });
       });
     });
 
