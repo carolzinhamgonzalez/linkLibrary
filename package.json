@@ -1,0 +1,32 @@
+{
+  "name": "cmg-url-of-string",
+  "version": "1.0.0",
+  "description": "Implementa um módulo de Node.js que receba uma string (em formato Markdown) e extraia todos os links encontrados. A implementação é uma função que recebe uma string e devolve um vetor de objetos.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "getLinksFromMd(string)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolzinhamgonzalez/linkLibrary.git"
+  },
+  "keywords": [
+    "markdown",
+    "url",
+    "string",
+    "link"
+  ],
+  "author": "Carolina Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolzinhamgonzalez/linkLibrary/issues"
+  },
+  "homepage": "https://github.com/carolzinhamgonzalez/linkLibrary#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
